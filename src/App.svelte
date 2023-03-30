@@ -23,7 +23,7 @@ camera.position.z = 5
 const backGroundColor = new THREE.Color(0x000000)
 
 
-const amongium = new THREE.TextureLoader().load("/src/assets/amongus.jpeg")
+const amongium = new THREE.TextureLoader().load("/src/assets/amongus.png")
 amongium.wrapS = THREE.RepeatWrapping
 amongium.wrapT = THREE.RepeatWrapping
 amongium.repeat.set(3,1)
